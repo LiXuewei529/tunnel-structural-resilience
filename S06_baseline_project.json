@@ -1,0 +1,655 @@
+{
+  "format": "tunnel-resilience-project",
+  "version": 2,
+  "modelVersion": "1.0.0",
+  "checkpoint": "2f2fbadbda01e7b0620796eee449443c3ebca84df8ef67586b68f5b7e955da51",
+  "input": {
+    "id": "S06",
+    "theta": 135,
+    "omega": 30,
+    "d": 1,
+    "l": 9,
+    "D": 0.5,
+    "H": 130,
+    "rock_class": "IV",
+    "lambda": 1
+  },
+  "horizon": 198.2,
+  "schedule": {
+    "wait": [
+      0,
+      5.8,
+      11.4,
+      22.7,
+      46.9
+    ],
+    "durations": [
+      [],
+      [
+        16.6,
+        5.8,
+        12.7,
+        4.4,
+        3.8,
+        3.4
+      ],
+      [
+        29.2,
+        18.5,
+        4.8,
+        17,
+        11.6
+      ],
+      [
+        2.9,
+        29.2,
+        39.6,
+        29.4,
+        11.2,
+        11.6
+      ],
+      [
+        9.9,
+        29.2,
+        9.8,
+        29,
+        29.4,
+        32.4,
+        11.6
+      ]
+    ],
+    "stages": [
+      [],
+      [
+        {
+          "name": "Inspection and assessment",
+          "label": "R1–R3",
+          "weight": 0,
+          "taskIds": [
+            "R1",
+            "R2",
+            "R3"
+          ]
+        },
+        {
+          "name": "Grouting hole layout and parameter trials",
+          "label": "R6",
+          "weight": 0,
+          "taskIds": [
+            "R6"
+          ]
+        },
+        {
+          "name": "Backfill grouting of voids behind the lining",
+          "label": "R7",
+          "weight": 78.57142857142857,
+          "taskIds": [
+            "R7"
+          ]
+        },
+        {
+          "name": "Surface protection and coating",
+          "label": "R21",
+          "weight": 21.428571428571427,
+          "taskIds": [
+            "R21"
+          ]
+        },
+        {
+          "name": "Reassessment and acceptance",
+          "label": "R22",
+          "weight": 0,
+          "taskIds": [
+            "R22"
+          ]
+        },
+        {
+          "name": "Monitoring installation and defect records",
+          "label": "R23",
+          "weight": 0,
+          "taskIds": [
+            "R23"
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Inspection, assessment and repair approval",
+          "label": "R1–R5",
+          "weight": 0,
+          "taskIds": [
+            "R1",
+            "R2",
+            "R3",
+            "R4",
+            "R5"
+          ]
+        },
+        {
+          "name": "Grouting preparation and backfill grouting",
+          "label": "R6–R7",
+          "weight": 52.63157894736842,
+          "taskIds": [
+            "R6",
+            "R7"
+          ]
+        },
+        {
+          "name": "Contact grouting and quality verification",
+          "label": "R8",
+          "weight": 15.789473684210526,
+          "taskIds": [
+            "R8"
+          ]
+        },
+        {
+          "name": "Deteriorated concrete removal and section repair",
+          "label": "R10, R13",
+          "weight": 21.052631578947366,
+          "taskIds": [
+            "R10",
+            "R13"
+          ]
+        },
+        {
+          "name": "Protection, acceptance and monitoring",
+          "label": "R21–R23",
+          "weight": 10.526315789473683,
+          "taskIds": [
+            "R21",
+            "R22",
+            "R23"
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Traffic control and site protection",
+          "label": "R24",
+          "weight": 0,
+          "taskIds": [
+            "R24"
+          ]
+        },
+        {
+          "name": "Inspection, assessment and repair approval",
+          "label": "R1–R5",
+          "weight": 0,
+          "taskIds": [
+            "R1",
+            "R2",
+            "R3",
+            "R4",
+            "R5"
+          ]
+        },
+        {
+          "name": "Comprehensive void remediation",
+          "label": "R6–R9",
+          "weight": 42.10526315789473,
+          "taskIds": [
+            "R6",
+            "R7",
+            "R8",
+            "R9"
+          ]
+        },
+        {
+          "name": "Lining repair and drainage works",
+          "label": "R10–R12, R14",
+          "weight": 26.31578947368421,
+          "taskIds": [
+            "R10",
+            "R11",
+            "R12",
+            "R14"
+          ]
+        },
+        {
+          "name": "Structural strengthening of the lining",
+          "label": "R15",
+          "weight": 21.052631578947366,
+          "taskIds": [
+            "R15"
+          ]
+        },
+        {
+          "name": "Protection, acceptance and monitoring",
+          "label": "R21–R23",
+          "weight": 10.526315789473683,
+          "taskIds": [
+            "R21",
+            "R22",
+            "R23"
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Construction coordination and safety management",
+          "label": "R24–R25",
+          "weight": 0,
+          "taskIds": [
+            "R24",
+            "R25"
+          ]
+        },
+        {
+          "name": "Inspection, assessment and repair approval",
+          "label": "R1–R5",
+          "weight": 0,
+          "taskIds": [
+            "R1",
+            "R2",
+            "R3",
+            "R4",
+            "R5"
+          ]
+        },
+        {
+          "name": "Temporary support and protection against falling fragments",
+          "label": "R18",
+          "weight": 7.216494845360824,
+          "taskIds": [
+            "R18"
+          ]
+        },
+        {
+          "name": "Void backfilling and deep-borehole reinforcement",
+          "label": "R7, R9",
+          "weight": 32.98969072164948,
+          "taskIds": [
+            "R7",
+            "R9"
+          ]
+        },
+        {
+          "name": "Lining repair and drainage works",
+          "label": "R10–R12, R14",
+          "weight": 20.618556701030926,
+          "taskIds": [
+            "R10",
+            "R11",
+            "R12",
+            "R14"
+          ]
+        },
+        {
+          "name": "Local removal and lining reconstruction",
+          "label": "R20",
+          "weight": 28.865979381443296,
+          "taskIds": [
+            "R20"
+          ]
+        },
+        {
+          "name": "Protection, acceptance and monitoring",
+          "label": "R21–R23",
+          "weight": 10.309278350515463,
+          "taskIds": [
+            "R21",
+            "R22",
+            "R23"
+          ]
+        }
+      ]
+    ],
+    "final": [
+      1,
+      0.99,
+      0.98,
+      0.95,
+      0.9
+    ]
+  },
+  "scenarioName": "Same as baseline",
+  "batch": [
+    {
+      "id": "S01",
+      "theta": 60,
+      "omega": 16,
+      "d": 0.84,
+      "l": 8,
+      "D": 0.05,
+      "H": 50,
+      "rock_class": "IV",
+      "lambda": 1.45
+    },
+    {
+      "id": "S02",
+      "theta": 30,
+      "omega": 36,
+      "d": 1.4,
+      "l": 7.6,
+      "D": 0.54,
+      "H": 96,
+      "rock_class": "IV",
+      "lambda": 1.27
+    },
+    {
+      "id": "S03",
+      "theta": 15,
+      "omega": 28,
+      "d": 0.77,
+      "l": 10.9,
+      "D": 0.54,
+      "H": 110,
+      "rock_class": "III",
+      "lambda": 1.42
+    },
+    {
+      "id": "S04",
+      "theta": 15,
+      "omega": 32,
+      "d": 1.15,
+      "l": 11.2,
+      "D": 0.38,
+      "H": 210,
+      "rock_class": "IV",
+      "lambda": 0.8
+    },
+    {
+      "id": "S05",
+      "theta": 165,
+      "omega": 22,
+      "d": 0.92,
+      "l": 3.9,
+      "D": 0.12,
+      "H": 250,
+      "rock_class": "IV",
+      "lambda": 1.31
+    },
+    {
+      "id": "S06",
+      "theta": 135,
+      "omega": 30,
+      "d": 1,
+      "l": 9,
+      "D": 0.5,
+      "H": 130,
+      "rock_class": "IV",
+      "lambda": 1
+    },
+    {
+      "id": "S07",
+      "theta": 60,
+      "omega": 26,
+      "d": 1.74,
+      "l": 9.9,
+      "D": 0.43,
+      "H": 325,
+      "rock_class": "V",
+      "lambda": 1.31
+    },
+    {
+      "id": "S08",
+      "theta": 30,
+      "omega": 26,
+      "d": 1.63,
+      "l": 8.4,
+      "D": 0.64,
+      "H": 368,
+      "rock_class": "III",
+      "lambda": 0.98
+    },
+    {
+      "id": "S09",
+      "theta": 180,
+      "omega": 34,
+      "d": 1.23,
+      "l": 8.6,
+      "D": 0.53,
+      "H": 383,
+      "rock_class": "V",
+      "lambda": 0.6
+    },
+    {
+      "id": "S10",
+      "theta": 45,
+      "omega": 30,
+      "d": 0.54,
+      "l": 7.5,
+      "D": 0.6,
+      "H": 395,
+      "rock_class": "V",
+      "lambda": 1.25
+    },
+    {
+      "id": "S11",
+      "theta": 30,
+      "omega": 24,
+      "d": 1.72,
+      "l": 11.2,
+      "D": 0.53,
+      "H": 409,
+      "rock_class": "V",
+      "lambda": 1.09
+    },
+    {
+      "id": "S12",
+      "theta": 165,
+      "omega": 8,
+      "d": 0.34,
+      "l": 4.3,
+      "D": 0.11,
+      "H": 394,
+      "rock_class": "V",
+      "lambda": 0.92
+    },
+    {
+      "id": "S13",
+      "theta": 15,
+      "omega": 38,
+      "d": 0.75,
+      "l": 8,
+      "D": 0.52,
+      "H": 362,
+      "rock_class": "V",
+      "lambda": 1.32
+    },
+    {
+      "id": "S14",
+      "theta": 135,
+      "omega": 28,
+      "d": 0.72,
+      "l": 10.1,
+      "D": 0.25,
+      "H": 329,
+      "rock_class": "V",
+      "lambda": 1.14
+    },
+    {
+      "id": "S15",
+      "theta": 15,
+      "omega": 20,
+      "d": 1.31,
+      "l": 3.3,
+      "D": 0.24,
+      "H": 291,
+      "rock_class": "IV",
+      "lambda": 1.12
+    },
+    {
+      "id": "S16",
+      "theta": 15,
+      "omega": 26,
+      "d": 1.03,
+      "l": 8.2,
+      "D": 0.33,
+      "H": 231,
+      "rock_class": "IV",
+      "lambda": 0.6
+    },
+    {
+      "id": "S17",
+      "theta": 135,
+      "omega": 12,
+      "d": 0.44,
+      "l": 6,
+      "D": 0.56,
+      "H": 183,
+      "rock_class": "IV",
+      "lambda": 0.6
+    },
+    {
+      "id": "S18",
+      "theta": 15,
+      "omega": 42,
+      "d": 0.32,
+      "l": 9.7,
+      "D": 0.19,
+      "H": 147,
+      "rock_class": "IV",
+      "lambda": 1.18
+    },
+    {
+      "id": "S19",
+      "theta": 45,
+      "omega": 46,
+      "d": 1.21,
+      "l": 2.7,
+      "D": 0.38,
+      "H": 91,
+      "rock_class": "IV",
+      "lambda": 1.08
+    },
+    {
+      "id": "S20",
+      "theta": 60,
+      "omega": 10,
+      "d": 1.04,
+      "l": 8.1,
+      "D": 0.53,
+      "H": 50,
+      "rock_class": "IV",
+      "lambda": 1.1
+    }
+  ],
+  "taskLibrary": [
+    {
+      "id": "R1",
+      "name": "Routine inspection, defect localisation and site documentation",
+      "duration": 4.2
+    },
+    {
+      "id": "R2",
+      "name": "Ground-penetrating radar detection of voids behind the lining",
+      "duration": 6.6
+    },
+    {
+      "id": "R3",
+      "name": "Inspection of lining deterioration",
+      "duration": 5.8
+    },
+    {
+      "id": "R4",
+      "name": "Inspection of leakage, drainage and lining deformation",
+      "duration": 4.1
+    },
+    {
+      "id": "R5",
+      "name": "Structural safety assessment, repair design and approval",
+      "duration": 8.5
+    },
+    {
+      "id": "R6",
+      "name": "Grouting hole layout and parameter trials",
+      "duration": 5.8
+    },
+    {
+      "id": "R7",
+      "name": "Backfill grouting of voids behind the lining",
+      "duration": 12.7
+    },
+    {
+      "id": "R8",
+      "name": "Contact grouting and verification of grout filling quality",
+      "duration": 4.8
+    },
+    {
+      "id": "R9",
+      "name": "Surface grouting for large voids or rock reinforcement through deep boreholes",
+      "duration": 16.3
+    },
+    {
+      "id": "R10",
+      "name": "Removal of deteriorated concrete and substrate cleaning",
+      "duration": 7.6
+    },
+    {
+      "id": "R11",
+      "name": "Sealing and grouting of lining cracks",
+      "duration": 6.6
+    },
+    {
+      "id": "R12",
+      "name": "Concrete reinstatement of the lining section",
+      "duration": 10
+    },
+    {
+      "id": "R13",
+      "name": "Section repair using repair mortar or shotcrete",
+      "duration": 9.4
+    },
+    {
+      "id": "R14",
+      "name": "Drainage system clearance and repair",
+      "duration": 5.2
+    },
+    {
+      "id": "R15",
+      "name": "Strengthening with bonded steel plates or steel sections",
+      "duration": 11.2
+    },
+    {
+      "id": "R16",
+      "name": "Strengthening with externally bonded fibre-reinforced composites",
+      "duration": 7.4
+    },
+    {
+      "id": "R17",
+      "name": "Combined strengthening with reinforcing mesh and shotcrete",
+      "duration": 12.6
+    },
+    {
+      "id": "R18",
+      "name": "Temporary support and protection against falling fragments",
+      "duration": 9.8
+    },
+    {
+      "id": "R19",
+      "name": "Internal relining or thickening of the secondary lining",
+      "duration": 21.5
+    },
+    {
+      "id": "R20",
+      "name": "Local removal and reconstruction of the lining",
+      "duration": 32.4
+    },
+    {
+      "id": "R21",
+      "name": "Surface protection and protective coating application",
+      "duration": 4.4
+    },
+    {
+      "id": "R22",
+      "name": "Repair quality inspection, structural reassessment and acceptance",
+      "duration": 3.8
+    },
+    {
+      "id": "R23",
+      "name": "Installation of long-term monitoring points and defect records",
+      "duration": 3.4
+    },
+    {
+      "id": "R24",
+      "name": "Traffic control, site enclosure and construction coordination",
+      "duration": 2.9
+    },
+    {
+      "id": "R25",
+      "name": "Approval of repair method statements and construction coordination",
+      "duration": 7
+    }
+  ]
+}

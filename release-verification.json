@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "applicationVersion": "1.1.1",
+  "referenceWorkbook": "预测数据_9400组_最新.xlsx",
+  "checkedPredictions": 9400,
+  "maxPredictionAbsoluteDifference": 0,
+  "maxIntensityAbsoluteDifference": 2.220446049250313e-16,
+  "maxNormalisedPredictionAbsoluteDifference": 1.1102230246251565e-16,
+  "original600RowsMatchLatestTrainingData": true,
+  "suppliedWorkbooksPreservedUnchanged": true,
+  "caseStudyRecoveryIntegrationsChecked": 20,
+  "exampleS06": {
+    "zeta": 0.7085026130894866,
+    "eta": 0.6206277839141999,
+    "resilience": 0.6795840833460258
+  },
+  "historicalDerivedWorksheet": "See DATA.md for the older η values retained in 600组数据.xlsx."
+}

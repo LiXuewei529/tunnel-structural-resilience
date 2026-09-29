@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "edition": "English",
+  "numericalComparisons": 300,
+  "maxAbsoluteDifference": 0,
+  "modelAndCaseDataIdentical": true,
+  "taskDurationsIdentical": true,
+  "applicationVersion": "1.1.1",
+  "nativeSmoke": {
+    "title": "Tunnel Structural Resilience Assessment",
+    "text": "Minimum relative safety factor \u03b6\u2098\u1d62\u2099\n0.7085\nPoint prediction \u00b7 DS2 Moderate damage\nComposite defect intensity \u03b7\n0.6206\nBased on angular void extent and deterioration\nStructural resilience index R\u209b\n0.6796\nAssessment period 198.2 days",
+    "comparison": "Baseline resilience0.6796Adjusted resilience0.6796Absolute change \u0394R\u209b+0.0000",
+    "chartCount": 4,
+    "desktopBridge": true,
+    "bodyWidth": 1585,
+    "viewport": 1600,
+    "errors": [],
+    "electron": "44.4.5",
+    "arch": "arm64"
+  },
+  "localisation": {
+    "language": "en-US",
+    "navigation": [
+      {
+        "page": "assess",
+        "heading": "Segment Assessment"
+      },
+      {
+        "page": "compare",
+        "heading": "Repair Comparison"
+      },
+      {
+        "page": "batch",
+        "heading": "Batch Assessment"
+      },
+      {
+        "page": "tasks",
+        "heading": "Repair Task Library"
+      }
+    ],
+    "taskCount": 25,
+    "reportEnglish": true
+  },
+  "visuallyReviewed": [
+    "assessment",
+    "comparison",
+    "batch",
+    "task_library",
+    "stage_editor",
+    "new_task_dialog",
+    "1200px_window"
+  ]
+}

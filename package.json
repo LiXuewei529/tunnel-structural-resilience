@@ -1,0 +1,14 @@
+{
+  "name": "tunnel-structural-resilience-en",
+  "productName": "Tunnel Structural Resilience Assessment",
+  "version": "1.1.1",
+  "description": "Offline tunnel structural resilience assessment, editable repair plans and batch analysis \u2014 English edition",
+  "main": "main.cjs",
+  "private": true,
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "44.4.5"
+  }
+}
