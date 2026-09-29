@@ -19,16 +19,10 @@ npm start
 
 Installing Electron requires an internet connection. Application calculations run on the local device; the application has no analytics or upload service. The desktop interface was checked on an Apple silicon Mac. The Electron dependency is pinned to the version used for that check.
 
-## Data downloads
+## Downloads
 
-| Workbook | Contents |
-| --- | --- |
-| [600组数据.xlsx](600组数据.xlsx) | 600 numerical cases. Use the **原始数据** worksheet for the eight input variables and reference minimum relative safety factor. |
-| [预测数据_9400组_最新.xlsx](预测数据_9400组_最新.xlsx) | 9,400 additional scenario inputs, saved LightGBM predictions, composite defect intensity and normalised predictions. |
-
-The two workbooks are retained exactly as supplied. Together, the 600 reference cases and 9,400 predictions form the 10,000-case analysis dataset. They are distinct data sources; the additional 9,400 responses are surrogate predictions.
-
-**Version note:** the 600-case workbook also contains historical derived worksheets. Its `η与损伤状态` worksheet uses earlier intensity values. Use the raw input worksheet and the current application coefficients when reproducing the present analysis. See [DATA.md](DATA.md) for sheet descriptions, units, normalisation and verification results.
+- [600组数据.xlsx](600组数据.xlsx)
+- [预测数据_9400组_最新.xlsx](预测数据_9400组_最新.xlsx)
 
 ## Application functions
 
